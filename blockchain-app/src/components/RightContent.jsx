@@ -71,8 +71,8 @@ const RightContent = ({ data }) => {
                   <Text>{el?.baseToken?.name}</Text>
                 </Flex>
                 <Flex flexDirection={["column", "row"]} 
-                justifyContent={"space-around"}>
-                  <Text>Symbol</Text>
+                justifyContent={  "space-around" }>
+                  <Text>Symbol </Text>
                   <Text>{el?.baseToken?.name}</Text>
                 </Flex>
               </Card>
