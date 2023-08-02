@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Box, Tabs, Tab, VStack, Flex, Text, Image } from "@chakra-ui/react";
 import "./Sidebar.css";
-const Sidebar = () => {
-  const [active, setactive] = useState(true)
+const Sidebar = ({active, setactive}) => {
+   
 
   return (
     <Box

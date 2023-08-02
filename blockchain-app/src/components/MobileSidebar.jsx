@@ -14,7 +14,8 @@ import {
 } from "@chakra-ui/react";
 import "./Sidebar.css";
 
-const MobileSidebar = ({ isOpen, onClose }) => {
+const MobileSidebar = ({ isOpen, onClose , active ,      setactive }) => {
+
   return (
     <Drawer isOpen={isOpen} placement="left" onClose={onClose}>
       <DrawerOverlay>
@@ -47,7 +48,8 @@ const MobileSidebar = ({ isOpen, onClose }) => {
           </DrawerHeader>
           <DrawerBody    >
             <Tabs isFitted variant="enclosed">
-              <Tab>
+              <Tab bg={active  ?  "#F30050" : "#292929"} 
+         onClick={() => setactive(!active)} >
                 <Flex justifyContent="center" alignItems="center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +66,8 @@ const MobileSidebar = ({ isOpen, onClose }) => {
                   <Text className="address">Token Address</Text>
                 </Flex>
               </Tab>
-              <Tab>
+              <Tab bg={!active  ?  "#F30050" : "#292929"} 
+         onClick={() => setactive(!active)} >
                 <Flex justifyContent="center" alignItems="center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
