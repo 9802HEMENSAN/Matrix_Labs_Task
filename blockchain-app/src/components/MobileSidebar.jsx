@@ -24,10 +24,11 @@ const MobileSidebar = ({ isOpen, onClose , active ,      setactive }) => {
       height="982px"
       top="1px"
       border-radius="0px 32px 32px 0px" >
-          <DrawerCloseButton />
+          <DrawerCloseButton  color={"white"} 
+          fontSize={"20px"} fontStyle={"bold"}/>
           <DrawerHeader> 
            <Tabs isFitted variant="enclosed" >
-           <Tab>
+           <Tab >
                 <Flex justifyContent="center" alignItems="center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +50,9 @@ const MobileSidebar = ({ isOpen, onClose , active ,      setactive }) => {
           <DrawerBody    >
             <Tabs isFitted variant="enclosed">
               <Tab bg={active  ?  "#F30050" : "#292929"} 
-         onClick={() => setactive(!active)} >
+         onClick={() => setactive(!active)
+         
+         } >
                 <Flex justifyContent="center" alignItems="center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
