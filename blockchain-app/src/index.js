@@ -5,8 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // 1. import `ChakraProvider` component
 import { ChakraProvider } from '@chakra-ui/react'
-
+//projectid =  ef3b74b786833f78cefce00b2f4a5452
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
 root.render(
   <React.StrictMode>
      <ChakraProvider>      

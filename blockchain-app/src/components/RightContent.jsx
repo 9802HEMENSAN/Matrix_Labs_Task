@@ -13,7 +13,13 @@ import {
 } from "@chakra-ui/react";
 import "./RightContent.css";
 import SingleCard from "./SingleCard";
+import { useWeb3Modal } from '@web3modal/react'
+
 const RightContent = ({ data , active, setsearchInput }) => {
+  const { open, close } = useWeb3Modal();
+
+
+
   return (
     <Box
       ml={{ base: "0px", md: "278px" }}
@@ -50,7 +56,7 @@ const RightContent = ({ data , active, setsearchInput }) => {
             </svg>
           </InputRightElement>
         </InputGroup>
-        <button className="connect-btn" >Connect</button>
+        <button className="connect-btn" onClick={() => open()}  >Connect</button>
       </Box>
       <Text ml={4} color={"white"} fontSize="lg" fontWeight="bold" my={4}>
         {active ? "Token Search Result" : "Pair Search Result"}
