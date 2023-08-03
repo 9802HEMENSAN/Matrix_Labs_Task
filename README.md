@@ -2,6 +2,22 @@
 
 This readme provides an overview of the functionalities added to the Matrix Labs Dexscreener website. The website is designed to allow users to explore decentralized exchange (DEX) information using data from the Dexscreener API.  
 
+## Screenshots 
+
+Desktop View 
+![Screenshot (565)](https://github.com/9802HEMENSAN/Matrix_Labs_Task/assets/111531676/ddc06b06-c711-49e1-9d5d-3b6e839f9825)
+
+Pair Address Result 
+
+![Screenshot (566)](https://github.com/9802HEMENSAN/Matrix_Labs_Task/assets/111531676/23091754-6c3d-4e5b-9220-5b7d58402cf3)
+
+Mobile View
+
+![WhatsApp Image 2023-08-03 at 09 57 37 (2)](https://github.com/9802HEMENSAN/Matrix_Labs_Task/assets/111531676/aa28c283-e803-4fbc-80fa-7f14c393599c)
+
+
+![WhatsApp Image 2023-08-03 at 09 57 37](https://github.com/9802HEMENSAN/Matrix_Labs_Task/assets/111531676/432400a9-309f-428e-84d1-4270c6608587)
+
 ## Functionalities Added
 
 ### 1. DEX Token Information Retrieval
