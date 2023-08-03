@@ -1,6 +1,6 @@
 import React from 'react'
 import { Flex, Text,Grid,Card  } from "@chakra-ui/react";
-
+import "./RightContent.css";
 const SingleCard = ({el}) => {
 
   return (
@@ -61,7 +61,7 @@ const SingleCard = ({el}) => {
         <Text className="textleft" ml={"32px"}>
           Name
         </Text>
-        <Text ml={"117px"}>
+        <Text ml={"117px"} >
           {el?.baseToken?.name.substring(0, 8)}
         </Text>
       </Flex>
